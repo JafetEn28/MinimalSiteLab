@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Document ready - Minimalist design!');
+    //console.log('Document ready - Minimalist design!');
     
     // Add font from Google Fonts
     const fontLink = document.createElement('link');
@@ -368,3 +368,6 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.1 });
 
 pricingCards.forEach(card => observer.observe(card));
+
+
+
