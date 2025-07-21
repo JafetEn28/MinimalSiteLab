@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudio Minimal  - Diseño y Desarrollo Web</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Estudio Minimal - Diseño y Desarrollo Web</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"></noscript>
+    <script src="script.js" defer></script>
+    <script src="pricing.js" defer></script>
 </head>
 
 <body>
     <header class="header">
         <div class="container header-container">
             <div class="logo">
-                <h1>MinimalSite<span> LAB </span></h1>
+                <h1>DeUna <span>Estudio</span></h1>
             </div>
             <nav class="navbar">
                 <ul class="nav-menu">
                     <li><a href="#inicio" class="active">Inicio</a></li>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#precios">Precios</a></li>
                     <li><a href="#proceso">Proceso</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>
@@ -35,9 +36,10 @@
     </header>
 
     <section id="inicio" class="hero">
+        <div class="container">
             <div class="hero-content">
                 <h1>Diseño Minimalista y Desarrollo Web</h1>
-                <p>Creamos experiencias digitales únicas, elegantes y funcionales "Less is More, but Better."</p>
+                <p>Creamos experiencias digitales únicas, elegantes y funcionales</p>
                 <div class="cta-buttons">
                     <a href="#contacto" class="btn btn-primary">Iniciar Proyecto</a>
                     <a href="#servicios" class="btn btn-secondary">Explorar Servicios</a>
@@ -45,8 +47,6 @@
             </div>
         </div>
     </section>
-    
-    
 
     <section id="servicios" class="services">
         <div class="container">
@@ -106,72 +106,6 @@
             </div>
         </div>
     </section>
-    
-    
-
-<section id="precios" class="pricing">
-  <div class="container">
-    <div class="section-header">
-      <h2>Precios</h2>
-      <p>Planes flexibles que se adaptan a tus necesidades</p>
-    </div>
-
-    <div class="pricing-grid">
-      <div class="pricing-card">
-        <h3>Emprendedores</h3>
-        <p class="price">₡100,000</p>
-        <ul>
-          <li>One Page profesional</li>
-          <li>Diseño simple y moderno</li>
-          <li>Hosting básico (3 meses)</li>
-          <li>Soporte vía email</li>
-        </ul>
-        <button class="btn btn-primary">Contratar</button>
-      </div>
-
-      <div class="pricing-card">
-        <h3>Básico</h3>
-        <p class="price">₡150,000</p>
-        <ul>
-          <li>Diseño UI/UX sencillo</li>
-          <li>3 páginas estáticas</li>
-          <li>Hosting básico (6 meses)</li>
-          <li>Soporte por email</li>
-        </ul>
-        <button class="btn btn-primary">Contratar</button>
-      </div>
-
-      <div class="pricing-card featured">
-        <h3>Profesional</h3>
-        <p class="price">₡300,000</p>
-        <ul>
-          <li>Diseño UI/UX personalizado</li>
-          <li>Hasta 10 páginas</li>
-          <li>Hosting + mantenimiento (1 año)</li>
-          <li>Optimización SEO básica</li>
-          <li>Soporte prioritario</li>
-        </ul>
-        <button class="btn btn-primary">Contratar</button>
-      </div>
-
-      <div class="pricing-card">
-        <h3>Premium</h3>
-        <p class="price">₡500,000</p>
-        <ul>
-          <li>Diseño UI/UX avanzado</li>
-          <li>Funcionalidades a medida</li>
-          <li>E-commerce completo</li>
-          <li>SEO avanzado y Analytics</li>
-          <li>Soporte 24/7 + actualizaciones</li>
-        </ul>
-        <button class="btn btn-primary">Contratar</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
 
     <section id="portfolio" class="portfolio">
         <div class="container">
@@ -190,8 +124,7 @@
             <div class="portfolio-grid">
                 <div class="portfolio-item" data-category="web">
                     <div class="portfolio-img">
-                       <img src="https://placehold.co/600x400/1a1a1a/fff?text=Proyecto+Web" alt="Proyecto de Diseño Web" loading="lazy">
-
+                        <img src="imagenes/Screenshot_11.png" alt="Proyecto de Diseño Web">
                     </div>
                     <div class="portfolio-info">
                         <h4>Estudio Creativo</h4>
@@ -202,18 +135,18 @@
                 
                 <div class="portfolio-item" data-category="ecommerce">
                     <div class="portfolio-img">
-                        <img src="https://placehold.co/600x400/1a1a1a/fff?text=E-Commerce" alt="Proyecto de E-Commerce" loading="lazy">
+                        <img src="imagenes/plantilla-web-delicioso-cafe_23-2148459152.jpg" alt="Proyecto de E-Commerce">
                     </div>
                     <div class="portfolio-info">
                         <h4>Minimal Store</h4>
                         <p>Tienda Online</p>
-                        <a href="#" class="portfolio-link">Ver Detalles</a>
+                        <a href="Cafeteria/index.html" class="portfolio-link">Ver Detalles</a>
                     </div>
                 </div>
                 
                 <div class="portfolio-item" data-category="app">
                     <div class="portfolio-img">
-                        <img src="https://placehold.co/600x400/1a1a1a/fff?text=App+Web" alt="Proyecto de Aplicación" loading="lazy">
+                        <img src="imagenes/linea-curva-saltando-en-cubos-de-colores.jpg" alt="Proyecto de Aplicación">
                     </div>
                     <div class="portfolio-info">
                         <h4>TaskFlow</h4>
@@ -224,7 +157,7 @@
                 
                 <div class="portfolio-item" data-category="web">
                     <div class="portfolio-img">
-                        <img src="https://placehold.co/600x400/1a1a1a/fff?text=Portfolio" alt="Proyecto de Portfolio" loading="lazy">
+                        <img src="imagenes/Screenshot_1.png" alt="Proyecto de Portfolio">
                     </div>
                     <div class="portfolio-info">
                         <h4>Portfolio Minimalista</h4>
@@ -235,7 +168,7 @@
                 
                 <div class="portfolio-item" data-category="ecommerce">
                     <div class="portfolio-img">
-                        <img src="https://placehold.co/600x400/1a1a1a/fff?text=Marketplace" alt="Proyecto de Marketplace" loading="lazy">
+                        <img src="imagenes/Screenshot_2.png" alt="Proyecto de Marketplace">
                     </div>
                     <div class="portfolio-info">
                         <h4>Design Market</h4>
@@ -246,12 +179,247 @@
                 
                 <div class="portfolio-item" data-category="app">
                     <div class="portfolio-img">
-                        <img src="https://placehold.co/600x400/1a1a1a/fff?text=Dashboard" alt="Proyecto de Dashboard" loading="lazy">
+                        <img src="imagenes/Screenshot_3.png" alt="Proyecto de Dashboard">
                     </div>
                     <div class="portfolio-info">
                         <h4>Analytics Minimal</h4>
                         <p>Dashboard</p>
                         <a href="#" class="portfolio-link">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precios" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Precios</h2>
+                <p>Soluciones adaptadas a tus necesidades y presupuesto</p>
+            </div>
+            <p class="section-description">Ofrecemos una variedad de paquetes diseñados para adaptarse a tus necesidades específicas, con precios transparentes y sin costos ocultos.</p>
+            
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="tab active" data-tab="development">Paquetes de Desarrollo</div>
+                    <div class="tab" data-tab="maintenance">Planes de Mantenimiento</div>
+                </div>
+                
+                <div class="tab-content active" id="development-content">
+                    <div class="price-toggle-container">
+                        <span class="toggle-label active">Pago Único</span>
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="price-toggle">
+                            <span class="toggle-slider"></span>
+                        </label>
+                        <span class="toggle-label">Pago Mensual <span class="save-badge">-15%</span></span>
+                    </div>
+                    
+                    <div class="pricing-grid">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Básico</h3>
+                                <div class="price price-monthly">€1.299</div>
+                                <div class="price price-yearly">€299<span>/mes</span></div>
+                                <p>Perfecto para pequeñas empresas y emprendedores</p>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Sitio web de 5 páginas</li>
+                                    <li><i class="fas fa-check"></i> Diseño responsive</li>
+                                    <li><i class="fas fa-check"></i> Formulario de contacto</li>
+                                    <li><i class="fas fa-check"></i> Optimización básica SEO</li>
+                                    <li><i class="fas fa-check"></i> Integración de redes sociales</li>
+                                    <li><i class="fas fa-check"></i> Hosting por 1 año</li>
+                                    <li><i class="fas fa-times"></i> E-Commerce</li>
+                                    <li><i class="fas fa-times"></i> Animaciones personalizadas</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> Entrega: 2-3 semanas
+                                </div>
+                                <a href="#contacto" class="btn btn-primary">Empezar</a>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card featured">
+                            <div class="pricing-badge">Popular</div>
+                            <div class="pricing-header">
+                                <h3>Profesional</h3>
+                                <div class="price price-monthly">€2.499</div>
+                                <div class="price price-yearly">€499<span>/mes</span></div>
+                                <p>Ideal para empresas en crecimiento</p>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Sitio web de 10 páginas</li>
+                                    <li><i class="fas fa-check"></i> Diseño premium responsivo</li>
+                                    <li><i class="fas fa-check"></i> Formularios personalizados</li>
+                                    <li><i class="fas fa-check"></i> Optimización avanzada SEO</li>
+                                    <li><i class="fas fa-check"></i> Integración de redes sociales</li>
+                                    <li><i class="fas fa-check"></i> Blog/sección de noticias</li>
+                                    <li><i class="fas fa-check"></i> Animaciones básicas</li>
+                                    <li><i class="fas fa-check"></i> Hosting por 1 año</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> Entrega: 3-4 semanas
+                                </div>
+                                <a href="#contacto" class="btn btn-primary">Empezar</a>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Premium</h3>
+                                <div class="price price-monthly">€4.999</div>
+                                <div class="price price-yearly">€899<span>/mes</span></div>
+                                <p>Para empresas que necesitan soluciones avanzadas</p>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Sitio web de 20+ páginas</li>
+                                    <li><i class="fas fa-check"></i> Diseño premium personalizado</li>
+                                    <li><i class="fas fa-check"></i> Formularios avanzados</li>
+                                    <li><i class="fas fa-check"></i> Estrategia completa de SEO</li>
+                                    <li><i class="fas fa-check"></i> Funcionalidad E-Commerce</li>
+                                    <li><i class="fas fa-check"></i> Animaciones personalizadas</li>
+                                    <li><i class="fas fa-check"></i> Panel de administración</li>
+                                    <li><i class="fas fa-check"></i> Hosting por 2 años</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> Entrega: 6-8 semanas
+                                </div>
+                                <a href="#contacto" class="btn btn-primary">Empezar</a>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card custom-card">
+                            <div class="pricing-header">
+                                <h3>Empresarial</h3>
+                                <div class="price">Contactar</div>
+                                <p>Soluciones personalizadas para grandes proyectos</p>
+                            </div>
+                            <div class="pricing-features custom-features">
+                                <p>¿Necesitas una solución completamente a medida? Nuestro paquete empresarial está diseñado para proyectos complejos con requisitos específicos.</p>
+                                <div class="custom-feature-list">
+                                    <div class="custom-feature">
+                                        <i class="fas fa-project-diagram"></i>
+                                        <span>Sistemas E-Commerce complejos</span>
+                                    </div>
+                                    <div class="custom-feature">
+                                        <i class="fas fa-database"></i>
+                                        <span>Soluciones de bases de datos</span>
+                                    </div>
+                                    <div class="custom-feature">
+                                        <i class="fas fa-users"></i>
+                                        <span>Sistemas de gestión de usuarios</span>
+                                    </div>
+                                    <div class="custom-feature">
+                                        <i class="fas fa-cogs"></i>
+                                        <span>Desarrollo e integración API</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#contacto" class="btn btn-secondary">Solicitar Presupuesto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="maintenance-content">
+                    <div class="pricing-grid maintenance-grid">
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Mantenimiento Básico</h3>
+                                <div class="price">€79<span>/mes</span></div>
+                                <p>Mantenimiento esencial para tu sitio web</p>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Actualizaciones de seguridad mensuales</li>
+                                    <li><i class="fas fa-check"></i> Copias de seguridad regulares</li>
+                                    <li><i class="fas fa-check"></i> Monitorización de tiempo de actividad</li>
+                                    <li><i class="fas fa-check"></i> Actualizaciones menores de contenido (1/mes)</li>
+                                    <li><i class="fas fa-times"></i> Optimización de rendimiento</li>
+                                    <li><i class="fas fa-times"></i> Seguimiento SEO</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#contacto" class="btn btn-primary">Seleccionar Plan</a>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card featured">
+                            <div class="pricing-badge">Recomendado</div>
+                            <div class="pricing-header">
+                                <h3>Mantenimiento Estándar</h3>
+                                <div class="price">€149<span>/mes</span></div>
+                                <p>Mantenimiento completo para tu web</p>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Actualizaciones de seguridad semanales</li>
+                                    <li><i class="fas fa-check"></i> Copias de seguridad diarias automatizadas</li>
+                                    <li><i class="fas fa-check"></i> Monitorización de tiempo de actividad 24/7</li>
+                                    <li><i class="fas fa-check"></i> Actualizaciones de contenido (4/mes)</li>
+                                    <li><i class="fas fa-check"></i> Optimización básica de rendimiento</li>
+                                    <li><i class="fas fa-check"></i> Informes mensuales de tráfico</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#contacto" class="btn btn-primary">Seleccionar Plan</a>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card">
+                            <div class="pricing-header">
+                                <h3>Mantenimiento Premium</h3>
+                                <div class="price">€299<span>/mes</span></div>
+                                <p>Servicio completo para sitios web críticos</p>
+                            </div>
+                            <div class="pricing-features">
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Monitorización y actualizaciones continuas</li>
+                                    <li><i class="fas fa-check"></i> Copias de seguridad en tiempo real</li>
+                                    <li><i class="fas fa-check"></i> Soporte prioritario 24/7</li>
+                                    <li><i class="fas fa-check"></i> Actualizaciones de contenido ilimitadas</li>
+                                    <li><i class="fas fa-check"></i> Optimización avanzada de rendimiento</li>
+                                    <li><i class="fas fa-check"></i> Auditoría SEO trimestral</li>
+                                    <li><i class="fas fa-check"></i> Mejoras continuas de UX/UI</li>
+                                    <li><i class="fas fa-check"></i> Descuento en desarrollos adicionales</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#contacto" class="btn btn-primary">Seleccionar Plan</a>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-card custom-card">
+                            <div class="pricing-header">
+                                <h3>E-Commerce & Tiendas Online</h3>
+                                <div class="price">Desde €349<span>/mes</span></div>
+                                <p>Mantenimiento especializado para tiendas online</p>
+                            </div>
+                            <div class="pricing-features custom-features">
+                                <p>Las tiendas online requieren un cuidado especial. Nuestro plan de mantenimiento E-Commerce incluye:</p>
+                                <ul style="margin-top: 20px;">
+                                    <li><i class="fas fa-check"></i> Todas las características del plan Premium</li>
+                                    <li><i class="fas fa-check"></i> Gestión de productos y catálogo</li>
+                                    <li><i class="fas fa-check"></i> Monitorización de pasarelas de pago</li>
+                                    <li><i class="fas fa-check"></i> Optimización de conversión</li>
+                                    <li><i class="fas fa-check"></i> Informes de ventas e integraciones</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer">
+                                <a href="#contacto" class="btn btn-secondary">Solicitar Información</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -367,11 +535,6 @@
         </div>
     </section>
 
-
-    
-
-
-
     <section id="contacto" class="contact">
         <div class="container">
             <div class="section-header">
@@ -397,7 +560,7 @@
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f0989f9c91b09583848594999f9d999e999d919cde939f9d">[email&#160;protected]</a></p>
+                            <p>hola@estudiominimal.com</p>
                         </div>
                     </div>
                     
@@ -444,7 +607,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h2>MinimalSite <span>Lab</span></h2>
+                    <h2>DeUna <span>Estudio</span></h2>
                     <p>Diseño minimalista. Máximo impacto.</p>
                 </div>
                 <div class="footer-links">
@@ -454,16 +617,18 @@
                             <li><a href="#inicio">Inicio</a></li>
                             <li><a href="#servicios">Servicios</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#precios">Precios</a></li>
+                            <li><a href="#proceso">Proceso</a></li>
                             <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
                         <h3>Servicios</h3>
                         <ul>
-                            <li><a href="#servicios">Diseño Web</a></li>
+                            <li><a href="#servicios">Diseño UI/UX</a></li>
                             <li><a href="#servicios">Desarrollo Web</a></li>
+                            <li><a href="#servicios">Diseño Responsivo</a></li>
                             <li><a href="#servicios">E-Commerce</a></li>
-                            <li><a href="#servicios">UI/UX Design</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
@@ -471,17 +636,15 @@
                         <ul>
                             <li><a href="#">Términos y Condiciones</a></li>
                             <li><a href="#">Política de Privacidad</a></li>
-                            <li><a href="#">Política de Cookies</a></li>
+                            <li><a href="#">Cookies</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 MinimalSite Lab. Todos los derechos reservados.</p>
+                <p>&copy; 2023 DeUna Estudio. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
 </body>
 </html>
